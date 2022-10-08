@@ -13,6 +13,10 @@ clientes = {
         'nome': 'Vitória',
         'sobrenome': 'Soares',
     },
+    'cliente4': {
+        'nome': 'Elias',
+        'sobrenome': 'Alberto',
+    },
 }
 
 # Iteracao de dicionario dentro de dicionario

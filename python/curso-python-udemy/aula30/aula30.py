@@ -11,7 +11,13 @@ d1 = {
     'str': 'valor',
     123: 'Outro valor',
     (1, 2, 3, 4): 'tupla',
+    'cliente3': {
+        'nome': 'Vitória',
+        'sobrenome': 'Soares',
+    },
 }
 
 
 print(d1[(1, 2, 3, 4)])
+print('Destá, eu eu de ver você batendo em minha porta')
+print('toc toc toc')
