@@ -1,3 +1,5 @@
+# Faça um Programa que peça as 4 notas bimestrais e mostre a média.
+
 n1 = float(input('Digite a primeira nota: \n'))
 n2 = float(input('Digite a segunda nota: \n'))
 n3 = float(input('Digite a terceira nota: \n'))
