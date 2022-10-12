@@ -1,5 +1,7 @@
 """"""""""""""""
 List comprehension
+- Otimização (performance do código)
+- Escrever menos linhas de código.
 """
 
 l1 = [1, 2, 3, 4, 5, 6, 7, 8, 9]
@@ -22,11 +24,13 @@ ex5 = dict(ex5)
 
 l3 = list(range(100))
 ex6 = [v for v in l3 if v % 2 == 0]
+ex7 = [v if v % 3 == 0 else 'não é' for v in l3]
 
 print(ex1)
 print(ex2)
 print(ex3)
 print(ex4)
 print(ex5)
-print(l3)
+print(ex6)
+print(ex7)
 
