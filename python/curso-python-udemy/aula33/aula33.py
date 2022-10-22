@@ -8,5 +8,7 @@ lista = [
     ('chave3', 'valor3'),
 ]
 
-d1 = {x.upper(): y.upper() for x, y in lista}
+d1 = {x: y for x, y in enumerate(range(5))}
+d2 = {f'chave_{x}': x**2 for x in range(5)}
 print(d1)
+print(d2, '\n',type(d2))
