@@ -1,4 +1,23 @@
-lista = [1, 2, 3, 4, 5]
+import sys
+import time
 
-for v in lista:
+
+# def gera():
+#     for n in range(100):
+#         yield n
+#         time.sleep(0.1)
+#
+#
+# g = gera()
+#
+# for v in g:
+#     print(v)
+
+l1 = [x for x in range(1000)]
+l2 = (x for x in range(1000000))
+
+print(sys.getsizeof(l1))
+print(sys.getsizeof(l2))
+
+for v in l2:
     print(v)
