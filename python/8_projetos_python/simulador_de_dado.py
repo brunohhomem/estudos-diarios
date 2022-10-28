@@ -1,3 +1,4 @@
+# Projeto 1 & 2
 # Simular o uso de um dado, para gerar um valor de 1 a 6
 import random
 import PySimpleGUI as sg
