@@ -1,4 +1,4 @@
-# - Projeto 5: Decida por mim;
+# - Projeto 5 & 6(GUI): Decida por mim;
 import random
 import PySimpleGUI as sg
 
