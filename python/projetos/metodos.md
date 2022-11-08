@@ -4,6 +4,8 @@
 - .Input()
 - .Button()
 - .Checkbox
+- .Combo()
+- .Output()
 - .Window()
 - .theme()
 - .popup
