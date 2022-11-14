@@ -20,3 +20,5 @@ Precedência dos operadores
 
 - Concatenação: Usar o sinal de + para unir strings;
 - Multiplicação de string: ao usar numero * uma string, vc repetira a string a quantidade de vezes do número.
+
+f-strings
