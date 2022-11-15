@@ -11,4 +11,7 @@
 
 # Função input - retorna str, fazer conversão de dado para o dado requerido
 
-input('qual seu nome? \n')
+n1 = int(input('Digite um número: '))
+n2 = int(input('Digite outro número: '))
+
+print(n1 + n2)
