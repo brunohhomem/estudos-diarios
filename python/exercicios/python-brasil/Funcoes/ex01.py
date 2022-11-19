@@ -1,9 +1,7 @@
-numero = input('Digite um número: ')
+def lista(numero):
+    return list(str(numero) * numero)
 
-if numero.isdigit():
-  numero_int = int(numero)
+numero = int(input('Digite o número: '))
 
-def imprime(n):
-  for i in range numero:
-  i += 1
-  print(i) * i
+for linha in range(1, numero + 1):
+    print(' '.join(lista(linha)))
