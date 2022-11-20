@@ -8,3 +8,7 @@ COMPLEXIDADE NO CÓDIGO É RUIM. SIMPLES É MELHOR QUE COMPLEXO.
 EXPLÍCITO É MELHOR QUE IMPLÍCITO.
 
 Variável não é pra resumir código e sim deixa-lo mais compreensível.
+**Jogar trecho de condição dentro da variável para deixar o código mais legível.**
+
+Posso usar flags assim como uso no genexus dentro do python, para criar condiçoes em que uma var
+booleana não seria suficiente...
