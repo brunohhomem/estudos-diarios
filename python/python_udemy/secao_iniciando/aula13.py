@@ -16,18 +16,29 @@ Executa uma ação enquanto a condição for verdadeira
 #   if x == 50:
 #     break
 
-qtd_linha = 5
-qtd_colunas = 5
-linha = 1
-coluna = 0
+# qtd_linha = 5
+# qtd_colunas = 5
+# linha = 1
+# coluna = 0
 
-# Laços internos While dentro de While
-while linha <= qtd_linha:
-  coluna = 1
-  
-  while coluna <= qtd_colunas:
-    print(f'Linha: {linha}, Coluna: {coluna}')
-    coluna += 1
-  linha += 1
+# # Laços internos While dentro de While
+# while linha <= qtd_linha:
+#   coluna = 1
 
-print('Acabou')
+#   while coluna <= qtd_colunas:
+#     print(f'Linha: {linha}, Coluna: {coluna}')
+#     coluna += 1
+#   linha += 1
+
+# print('Acabou')
+
+string = 'Qualquer valor'
+
+i = 0
+while i < len(string):
+    letra = string[i]
+
+    print(letra)
+    i += 1
+else:
+    print('Else do while')
